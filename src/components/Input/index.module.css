@@ -1,0 +1,54 @@
+.input_container {
+  background-color: var(--secondary);
+  position: relative;
+  border-radius: 30px;
+}
+
+.input_container:has(> .input:hover) {
+  outline: 1px solid var(--tertiary);
+}
+
+.input_container:has(> .input:focus-visible) {
+  outline: 2px solid var(--text-primary);
+}
+
+.input_container:has(> .input_icon:hover) {
+  outline: 1px solid var(--tertiary);
+}
+
+.input_icon {
+  position: absolute;
+  cursor: pointer;
+}
+
+.input_icon_start {
+  left: 12px;
+  top: 12px;
+}
+
+.input_icon_end {
+  right: 12px;
+  top: 12px;
+}
+
+.input {
+  padding: 12px;
+  background-color: var(--secondary);
+  color: var(--text-primary);
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.input:focus-visible {
+  outline: none;
+  cursor: text;
+}
+
+.input::placeholder {
+  color: var(--text-secondary);
+}

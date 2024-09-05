@@ -1,0 +1,16 @@
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 1fr 72px;
+  row-gap: 10px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  column-gap: 10px;
+  height: 100%;
+}

@@ -1,0 +1,41 @@
+.card {
+  padding: 10px;
+  border-radius: 4px;
+  &:hover {
+    background-color: var(--tertiary);
+  }
+}
+
+.link {
+  text-decoration: none;
+  column-gap: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.cover {
+  border-radius: 4px;
+  height: 50px;
+  width: 50px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.title {
+  color: var(--primary);
+  font-weight: 400;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.counter {
+  color: var(--text-secondary);
+  font-weight: 400;
+}
